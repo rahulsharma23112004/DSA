@@ -12,7 +12,6 @@ void addSolution(vector<vector<int>> &ans , vector<vector<int>> &board , int n){
     }
     ans.push_back(temp);
 }
-
 bool isSafe(int row, int col , vector<vector<int> > &board ,int n){
     int x = row; 
     int y = col;
