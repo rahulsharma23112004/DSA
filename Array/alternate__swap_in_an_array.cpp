@@ -28,7 +28,6 @@ void alternateSwap(int arr[] , int size)
         }
     }
 }
-
 int main()
 {
     int size;
