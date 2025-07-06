@@ -13,7 +13,6 @@ bool isSafe(int newx, int newy, vector<vector<bool>> &vis, vector<vector<int>> &
         return false;
     }
 }
-
 void solve(int x, int y, vector<vector<int>> &arr, int n, vector<string> &ans, vector<vector<bool>> &vis, string path)
 {
     if (x == n - 1 && y == n - 1)
