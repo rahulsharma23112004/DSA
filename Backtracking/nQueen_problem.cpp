@@ -10,7 +10,7 @@ void addSolution(vector<vector<int>> &ans , vector<vector<int>> &board , int n){
             temp.push_back(board[i][j]); 
         }
     }
-    ans.push_back(temp);
+    ans.push_back(temp); 
 }
 bool isSafe(int row, int col , vector<vector<int> > &board ,int n){
     int x = row; 
