@@ -7,7 +7,7 @@ void addSolution(vector<vector<int>> &ans , vector<vector<int>> &board , int n){
     for(int i = 0 ;i<n ;i++){
         for(int j= 0; j<n;j++)
         {
-            temp.push_back(board[i][j]); 
+            temp.push_back(board[i][j]);  
         }
     }
     ans.push_back(temp); 
