@@ -8,7 +8,7 @@ public:
     int top;
     int size;
 
-    Stack(int size)
+    Stack(int size) 
     {
         this->size = size;
         arr = new int[size];
