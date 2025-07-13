@@ -10,7 +10,7 @@ void reverse(string& str , int i, int j)
     i++;
     j--; 
     reverse(str,i,j);
-}
+} 
 
 int main()
 {
