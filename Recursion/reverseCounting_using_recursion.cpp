@@ -11,7 +11,7 @@ void printReverseCounting(int n)
 }
 
 int main()
-{
+{ 
     int n;
     cout<<"Enter value of n till where you want to print the counting: "<<endl;
     cin>>n;
