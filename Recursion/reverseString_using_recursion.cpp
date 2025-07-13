@@ -8,7 +8,7 @@ void reverse(string& str , int i, int j)
     }
     swap(str[i],str[j]);
     i++;
-    j--;
+    j--; 
     reverse(str,i,j);
 }
 
