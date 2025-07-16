@@ -16,7 +16,7 @@ void dfs(int node, unordered_map<int, bool> &visited, unordered_map<int, list<in
         {
             dfs(i, visited, adj, component);
         }
-    }
+    } 
 }
 
 vector<vector<int>> dfs(int V, int E, vector<vector<int>> &edges)
