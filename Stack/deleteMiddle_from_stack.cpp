@@ -10,7 +10,7 @@ void solve(stack<int>&inputStack , int count , int size){
     }
 
     int num = inputStack.top() ;
-    inputStack.pop() ;
+    inputStack.pop() ;  
 
     //recursive call:
     solve(inputStack , count+1 , size);
