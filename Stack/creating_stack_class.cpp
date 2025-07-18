@@ -6,7 +6,7 @@ class Stack
 public:
     int *arr;
     int top;
-    int size; 
+    int size;  
 
     Stack(int size) 
     {
