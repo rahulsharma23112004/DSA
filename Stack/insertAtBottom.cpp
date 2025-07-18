@@ -6,7 +6,7 @@ void solve(stack<int>&s , int elem)
 {
     //base case:
     if(s.empty()){
-        s.push(elem);
+        s.push(elem); 
         return ;
     }
 
