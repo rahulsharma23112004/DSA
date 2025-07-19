@@ -8,7 +8,7 @@ class CircularQueue
     int size;
     int front;
     int rear;
-
+ 
 public:
     CircularQueue(int n)
     {
