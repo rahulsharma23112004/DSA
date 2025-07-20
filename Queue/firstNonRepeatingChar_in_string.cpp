@@ -16,7 +16,7 @@ string firstNonRepeating(string A)
         count[ch]++;
 
         q.push(ch);
-
+  
         while (!q.empty())
         {
             if (count[q.front()] > 1)
