@@ -8,7 +8,7 @@ int power(int n){
 
     int pow = 2 * power(n-1);
     return pow;
-}
+}   
 
 int main()
 {
