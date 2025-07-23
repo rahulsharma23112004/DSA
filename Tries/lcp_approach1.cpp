@@ -8,7 +8,7 @@ string longestCommonPrefix(vector<string> &arr , int n){
     for(int i = 0 ;i<arr[0].length() ;i++){
         char ch = arr[0][i];
 
-        bool match = true;
+        bool match = true; 
 
         for(int j = 1; j<n ; j++){
             if(arr[j].size() < i  || ch != arr[j][i]){
