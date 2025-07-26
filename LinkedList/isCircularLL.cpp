@@ -14,7 +14,7 @@ class Node{
 
 void insertNode(Node* &tail , int element , int d)
 {
-    if(tail==NULL){
+    if(tail==NULL){ 
         Node* temp = new Node(d);
         tail = temp;
         temp->next = temp;
