@@ -4,7 +4,7 @@ using namespace std;
 
 bool binary_search(int arr,int start,int end,int element)
 { 
-    int mid = (start+end)/2 ;
+    int mid = (start+end)/2 ; 
     if( start>end){
         return false;
     } 
