@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 void inputArray(int arr[], int size) 
 {
     cout<<"Enter te array elements: "<<endl;
