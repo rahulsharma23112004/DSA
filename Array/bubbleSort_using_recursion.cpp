@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+ 
 void sortArray(int arr[] , int n)
 {
     if(n==0 || n==1){
