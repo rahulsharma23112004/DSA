@@ -4,7 +4,7 @@ using namespace std;
 class Stack
 { 
 public:
-    int *arr;
+    int *arr;  
     int top;
     int size;  
  
