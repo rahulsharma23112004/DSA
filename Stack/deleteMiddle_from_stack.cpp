@@ -4,7 +4,7 @@ using namespace std;
 
 void solve(stack<int>&inputStack , int count , int size){
     //base case:
-    if(count == size/2){
+    if(count == size/2){ 
         inputStack.pop() ;
         return ;
     }
