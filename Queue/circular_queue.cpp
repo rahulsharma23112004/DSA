@@ -6,7 +6,7 @@ class CircularQueue
 {
     int *arr;
     int size;
-    int front;
+    int front;  
     int rear;
  
 public:
