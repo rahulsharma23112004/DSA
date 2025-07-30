@@ -7,7 +7,7 @@ int circularTour(int p[] , int d[] , int n){
     int balance = 0;
     int start = 0;
 
-    for(int i = 0 ;i<n;i++){
+    for(int i = 0 ;i<n;i++){  
         balance = balance + p[i] - d[i] ;
 
         if(balance<0){ 
