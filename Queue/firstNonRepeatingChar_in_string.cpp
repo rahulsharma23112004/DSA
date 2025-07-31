@@ -9,7 +9,7 @@ string firstNonRepeating(string A)
     string ans = "";
     queue<int> q;
 
-    for (int i = 0; i < A.length(); i++)
+    for (int i = 0; i < A.length(); i++)  
     {
         char ch = A[i];
 
