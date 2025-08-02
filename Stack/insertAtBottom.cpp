@@ -4,7 +4,7 @@ using namespace std;
 
 void solve(stack<int>&s , int elem)
 {
-    //base case:
+    //base case:  
     if(s.empty()){
         s.push(elem); 
         return ;  
