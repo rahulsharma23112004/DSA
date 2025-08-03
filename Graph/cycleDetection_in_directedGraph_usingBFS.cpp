@@ -12,7 +12,7 @@ int cycleDetectionInDirectedGraph( int n , vector<vector<int>> &edges )
     {
         int u = edges[i][0];
         int v = edges[i][1];
-        adj[u].push_back(v);
+        adj[u].push_back(v);  
     }
 
     vector<int> indegree(n+1);
