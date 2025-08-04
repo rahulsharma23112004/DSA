@@ -14,7 +14,7 @@ class graph
     {
         adj[u].push_back(v);
         if(direction==0){
-            adj[v].push_back(u);
+            adj[v].push_back(u);  
         }
     }
 
