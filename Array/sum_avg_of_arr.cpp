@@ -10,6 +10,7 @@ void inputArray(int arr[], int size)
     }
 }
 
+
 void printArray(int arr[] , int size)
 {
     cout<<"Array elements: "<<endl;
@@ -52,6 +53,7 @@ int main()
     cout<<"/nSum of array elements is: "<<printSum(arr,size)<<endl;
     cout<<"/nAverage of array elements is: "<<printAvg(arr,size)<<endl;
     return 0;
+
 
 
 }
