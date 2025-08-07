@@ -10,6 +10,7 @@ void inputArray(int arr[], int size)
     }
 }
 
+
 void printArray(int arr[] , int size)
 {
     cout<<"Array elements: "<<endl;
