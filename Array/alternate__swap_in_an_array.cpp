@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+using namespace std; 
 
 void inputArray(int arr[], int size) 
 {
