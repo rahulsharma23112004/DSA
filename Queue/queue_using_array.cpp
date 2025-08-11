@@ -11,7 +11,7 @@ class Queue
 public:
     Queue()
     {
-        size = 100001;
+        size = 100001;  
         arr = new int[size];
         front = 0;
         rear = 0;
