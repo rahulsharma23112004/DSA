@@ -10,7 +10,7 @@ queue<int> modifyQueue(queue<int> &q , int k)
     for(int i=0;i<k;i++){
         int val = q.front();
         q.pop();
-        s.push(val);
+        s.push(val);  
     }
 
     while(!s.empty()){
