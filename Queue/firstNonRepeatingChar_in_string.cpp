@@ -8,7 +8,7 @@ string firstNonRepeating(string A)
     map<char, int> count;
     string ans = "";
     queue<int> q;
-
+  
     for (int i = 0; i < A.length(); i++)  
     {
         char ch = A[i];
