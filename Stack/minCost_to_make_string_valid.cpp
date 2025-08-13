@@ -13,7 +13,7 @@ int findMinimumCost(string &str){
     for(int i=0;i<str.length() ; i++){
         char ch = str[i] ;
         if(ch == '{' ){
-          s.push(ch);
+          s.push(ch);  
         }
         else{
             if(!s.empty() && s.top() == '{'){
