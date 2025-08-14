@@ -12,7 +12,7 @@ public:
         this->data = data;
         this->next = NULL;
     }
-
+  
     ~Node()
     {
         if (this->next == NULL)
