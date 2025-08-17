@@ -11,7 +11,7 @@ class TrieNode
     TrieNode(char ch){
         data = ch;
         for(int i =0; i<26 ;i++){
-            children[i] = NULL;
+            children[i] = NULL;  
         }
         isTerminal = false;
     }
