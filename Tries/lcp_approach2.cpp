@@ -9,7 +9,7 @@ class TrieNode
     TrieNode* children[26];
     int childCount;
     bool isTerminal;
-
+  
     TrieNode(char ch){
         data = ch;
         for(int i =0; i<26 ;i++){
