@@ -12,7 +12,7 @@ string longestCommonPrefix(vector<string> &arr , int n){
 
         for(int j = 1; j<n ; j++){  
             if(arr[j].size() < i  || ch != arr[j][i]){
-                match = false;
+                match = false;  
                 break;
             }
         }
