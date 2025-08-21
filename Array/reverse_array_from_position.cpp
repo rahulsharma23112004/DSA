@@ -3,7 +3,7 @@
 using namespace std;
 
 vector<int> reverse(vector<int> v, int position){
-    int s = position+1 ;
+    int s = position+1 ; 
     int e = v.size()-1;
     while(s<=e)
     {
@@ -34,4 +34,5 @@ int main()
     vector<int> ans = reverse(v,m);
     printArray(ans);
     return 0;
+
 }
