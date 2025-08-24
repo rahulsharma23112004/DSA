@@ -12,7 +12,7 @@ class Node{
     this->next = NULL;
   }
 };
-
+  
 int getLength(Node* &head ){
     Node* temp = head;
     int len=0;
