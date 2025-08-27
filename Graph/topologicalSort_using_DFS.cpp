@@ -9,7 +9,7 @@ void topoSort(int node, vector<bool> &visited , stack<int> &s , unordered_map<in
 {
     visited[node] = 1;
     for(auto neighbour : adj[node]){
-        if(!visited[neighbour]){
+        if(!visited[neighbour]){ 
             topoSort(neighbour , visited , s , adj);
         }
     }
