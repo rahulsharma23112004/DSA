@@ -15,7 +15,7 @@ vector<int> topologicalSort(vector<vector<int>> &edges , int v  , int e)
         adj[u].push_back(dist);
     }
 
-    vector<int> indegree(v+1);
+    vector<int> indegree(v+1);  
     for(auto i: adj){
         for(auto j:i.second){
             indegree[j]++;
