@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Stack
+class Stack 
 { 
 public:
     int *arr;  
