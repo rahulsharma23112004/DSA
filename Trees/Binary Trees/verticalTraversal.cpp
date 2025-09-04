@@ -19,7 +19,7 @@ class Node{
 
 Node* buildTree(Node* root){
     cout<<"Enter data: "<<endl;
-    int data;
+    int data;   
     cin>>data;
     
     if(data == -1){
