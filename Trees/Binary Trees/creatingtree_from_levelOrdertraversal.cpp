@@ -15,7 +15,7 @@ class Node{
     }
 };
 
-void buildFromLevelOrder(Node* root){
+void buildFromLevelOrder(Node* root){  
     queue<Node*> q;
     cout<<"Enter data for root: "<<endl;
     int data;
