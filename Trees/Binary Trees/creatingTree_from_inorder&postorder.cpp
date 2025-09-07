@@ -13,7 +13,7 @@ public:
         this->data = data;
         this->left = NULL;
         this->right = NULL;
-    }
+    }  
 };
 
 int findPosition(int inorder[], int element, int n)
