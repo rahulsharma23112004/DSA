@@ -14,7 +14,7 @@ class Node{
   ~Node(){
     if(this->next !=NULL){
         delete next;
-        this->next = NULL;
+        this->next = NULL;  
     }
   }
 };
