@@ -10,7 +10,7 @@ void sortedInsert(stack<int>&s , int num){
     }
 
     int n = s.top() ;
-    s.pop();
+    s.pop();  
 
     //recursion:
     sortedInsert(s , num);
