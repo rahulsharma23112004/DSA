@@ -13,7 +13,7 @@ class Node
         this->data = data;
         this->left = NULL;
         this->right = NULL;
-    }
+    }  
 };
 
 Node* insertIntoBST(Node* root , int data)
