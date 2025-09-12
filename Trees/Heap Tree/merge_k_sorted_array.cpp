@@ -12,7 +12,7 @@ class Node
 
     Node(int data , int row , int col)
     {
-        this->data = data;
+        this->data = data;   
         i = row;
         j = col;
     }
