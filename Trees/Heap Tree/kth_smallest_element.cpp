@@ -12,7 +12,7 @@ int kthSmallest(int arr[] , int l , int r  , int k){
     for(int i = k ; i<=r ; i++){
         if(arr[i]<pq.top()){
             pq.pop() ;
-            pq.push(arr[i]);
+            pq.push(arr[i]);  
         }
     }
 
