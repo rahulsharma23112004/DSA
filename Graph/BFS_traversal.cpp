@@ -5,7 +5,7 @@
 #include<queue>
 using namespace std;
 
-void prepareAdjList(unordered_map<int , list<int>> &adjList , vector<pair<int, int>> &edges)
+void prepareAdjList(unordered_map<int , list<int>> &adjList , vector<pair<int, int>> &edges)  
 {
     for(int i =0;i<edges.size();i++){
         int u = edges[i].first;
