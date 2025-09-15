@@ -15,7 +15,7 @@ void makeSet(vector<int> &parent , vector<int> &rank , int n)
     for(int i = 0 ;i<n ;i++){
         parent[i] = i;
         rank[i]= 0;
-    }
+    }  
 }
 
 int findParent(vector<int> &parent , int node)
