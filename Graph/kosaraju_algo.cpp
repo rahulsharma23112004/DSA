@@ -12,7 +12,7 @@ void dfs(int node , unordered_map<int , bool> &vis , stack<int> &st , unordered_
   {
     if(!vis[nbr]){
         dfs(nbr , vis, st, adj);
-    }
+    }  
   }
 
   st.push(node) ; 
