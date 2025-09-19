@@ -18,7 +18,7 @@ void insertAtHead(Node* &head , int d)
     Node* temp = new Node(d);
     temp->next = head;
     head = temp; 
-}
+}  
 
 void insertAtTail(Node* &tail , int d)
 {
