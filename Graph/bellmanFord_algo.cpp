@@ -10,7 +10,7 @@ int bellmanFord(int n , int m , int src, int dest,  vector<vector<int>> &edges)
     dist[src] = 0;
 
     for(int i = 1 ;i<=n ;i++){
-        for(int j = 0 ;j <m ;j++){
+        for(int j = 0 ;j <m ;j++){  
             int u = edges[j][0];
             int v = edges[j][1];
             int wt = edges[j][2];  
