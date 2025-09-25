@@ -13,7 +13,7 @@ vector<int> topologicalSort(vector<vector<int>> &edges , int v  , int e)
         int u = edges[i][0];
         int dist = edges[i][1];
         adj[u].push_back(dist);
-    }
+    }  
 
     vector<int> indegree(v+1);  
     for(auto i: adj){
