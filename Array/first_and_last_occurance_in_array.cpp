@@ -12,7 +12,7 @@ void inputArray(int arr[], int size)
 
 void printArray(int arr[] , int size)
 {
-    cout<<"Array elements: "<<endl;
+    cout<<"Array elements: "<<endl;  
     for(int i=0;i<size;i++)
     {
        cout<<arr[i]<<" ";
@@ -86,6 +86,7 @@ int main()
     int first = firstOccurance(arr, size,  k);
     int second = lastOccurance( arr, size, k);
     return 0;
+
 
 
 }
