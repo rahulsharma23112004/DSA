@@ -8,7 +8,7 @@ void inputArray(int arr[], int size)
     { 
         cin>>arr[i];
     }
-}
+}  
 
 void printArray(int arr[] , int size)
 {
@@ -52,4 +52,5 @@ int main()
 
 
 }
+
 
