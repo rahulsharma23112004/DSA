@@ -8,7 +8,7 @@ void solve(stack<int>&s , int elem)
     if(s.empty()){
         s.push(elem);  
         return ;    
-    }
+    }  
  
     int num = s.top();
     s.pop();
