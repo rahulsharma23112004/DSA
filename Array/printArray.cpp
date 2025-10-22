@@ -18,7 +18,7 @@ void printArray(int arr[] , int size)
        cout<<arr[i]<<" ";
     }
 }
-
+  
 
 
 int main()
@@ -30,6 +30,7 @@ int main()
     inputArray(arr,size) ;
     printArray(arr,size);
     return 0;
+
 
 
 }
